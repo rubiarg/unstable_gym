@@ -1,4 +1,8 @@
-from gym.envs.registration import register
+from .unstable_cartpole_cont import UnstableCartPoleContEnv
+from .unstable_acrobot_cont import UnstableAcrobotContEnv
+from .unstable_pendulum import UnstablePendulumEnv
+
+from gymnasium.envs.registration import register
 
 register(
     id='UnstablePendulum-v0',

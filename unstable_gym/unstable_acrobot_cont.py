@@ -6,12 +6,11 @@ Implemented based on OpenAI Gym Acrobot https://github.com/rlpy/rlpy/blob/master
 
 from typing import Optional
 
-import math
 import numpy as np
 from numpy import cos, pi, sin
 
-from gym import core, spaces
-from gym.error import DependencyNotInstalled
+from gymnasium import core, spaces
+from gymnasium.error import DependencyNotInstalled
 
 
 class UnstableAcrobotContEnv(core.Env):
